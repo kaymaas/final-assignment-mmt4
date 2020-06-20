@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Eindwerk</title>
+</head>
+
+<body>
+  <header>
+    <div class="centernav">
+      <nav>
+        <img class="logo switchtheme" src="img/logo.svg" alt="logo">
+        <ul>
+          <li>over ons</li>
+          <li>lesmateriaal</li>
+          <li>contact</li>
+        </ul>
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+            <img class="sun opacity" src="img/sun@2x.png" alt="mode">
+            <img class="moon" src="img/moon@2x.png" alt="mode">
+          </label>
+        </div>
+      </nav>
+    </div>
+    <h1 class="headerh1">Van beginner naar expert
+      Het lesmateriaal brengt je verder</h1>
+    <h2 class="headerh2">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem
+      malesuada magna
+      mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget
+      metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
+  </header>
+  <div class="thumb-wrapper">
+    <div class="thumb center-thumb" id="leer">
+      <img class="center-icon switchtheme" src="img/Group 32.svg">
+      <h3 class="icons">Leer</h3>
+    </div>
+    <div class="thumb">
+      <img class="center-icon switchtheme" src="img/codeer.svg">
+      <h3 class="icons">Codeer</h3>
+    </div>
+    <div class="thumb">
+      <img class="center-icon switchtheme" src="img/speel.svg">
+      <h3 class="icons">Speel</h3>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <main>
+    <div class="container">
+      <h3>Playlist</h3>
+      <div id="accordion">
+        <h3>
+          <div class="arrow-right"></div>Algemene introductie
+        </h3>
+        <div>
+          <div class="video-container">
+            <div class="modal" id="modalpopup">
+              <h3 class="modalh3">Goedzo! Je hebt de video afgekeken : )</h3>
+              <button class="modalbutton">Gereed</button>
+            </div>
+            <img class="videobutton playbutton switchthemeblue" id="pausebutton" src="img/pause-btn@2x.png" alt="playbutton">
+            <img class="videobutton playbutton switchthemeblue" id="playbutton" src="img/play-btn@2x.png" alt="playbutton">
+            <img class="videobutton forwardbutton switchthemeblue" id="forwardbutton" src="img/forward btn@2x.png"
+              alt="forwardbutton">
+            <img class="videobutton rewindbutton switchthemeblue" id="rewindbutton" src="img/rewind btn@2x.png" alt="rewindbutton">
+            <video id="my-video1" class="video-js vjs-16-9" preload="auto" width="640" height="264"
+              poster="img/video_placeholder@2x.png" data-setup="{}">
+              <source
+                src="https://player.vimeo.com/external/345340464.hd.mp4?s=9b65431ff9fe2b3c0d6c76c07b2130c30b530440&profile_id=175"
+                type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+          </div>
+        </div>
+        <h3 id="testh3">
+          <div class="arrow-right"></div>Workshop 1: Kleuren met code
+        </h3>
+        <div>
+          <div class="video-container">
+            <div class="modal" id="modalpopup">
+              <h3 class="modalh3">Goedzo! Je hebt de video afgekeken : )</h3>
+              <button class="modalbutton">Gereed</button>
+            </div>
+            <img class="videobutton playbutton switchthemeblue" id="pausebutton2" src="img/pause-btn@2x.png" alt="playbutton">
+            <img class="videobutton playbutton switchthemeblue" id="playbutton2" src="img/play-btn@2x.png" alt="playbutton">
+            <img class="videobutton forwardbutton switchthemeblue" id="forwardbutton2" src="img/forward btn@2x.png"
+              alt="forwardbutton">
+            <img class="videobutton rewindbutton switchthemeblue" id="rewindbutton2" src="img/rewind btn@2x.png" alt="rewindbutton">
+            <video id="my-video2" class="video-js vjs-16-9" preload="auto" width="640" height="264"
+              poster="img/video_placeholder@2x.png" data-setup="{}">
+              <source
+                src="https://player.vimeo.com/external/345309453.hd.mp4?s=656ae411701f79b10d5d0f58737149d11d6134dd&profile_id=175"
+                type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+          </div>
+        </div>
+        <h3>
+          <div class="arrow-right"></div>Workshop 2: Vormen maken
+        </h3>
+        <div>
+          <div class="video-container">
+            <div class="modal" id="modalpopup">
+              <h3 class="modalh3">Goedzo! Je hebt de video afgekeken : )</h3>
+              <button class="modalbutton">Gereed</button>
+            </div>
+            <img class="videobutton playbutton switchthemeblue" id="pausebutton3" src="img/pause-btn@2x.png" alt="playbutton">
+            <img class="videobutton playbutton switchthemeblue" id="playbutton3" src="img/play-btn@2x.png" alt="playbutton">
+            <img class="videobutton forwardbutton switchthemeblue" id="forwardbutton3" src="img/forward btn@2x.png"
+              alt="forwardbutton">
+            <img class="videobutton rewindbutton switchthemeblue" id="rewindbutton3" src="img/rewind btn@2x.png" alt="rewindbutton">
+            <video id="my-video3" class="video-js vjs-16-9" preload="auto" width="640" height="264"
+              poster="img/video_placeholder@2x.png" data-setup="{}">
+              <source
+                src="https://player.vimeo.com/external/345175603.hd.mp4?s=bb3f59dcd3e769fdc8307ece2f2c0b794ef551d6&profile_id=175"
+                type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+          </div>
+        </div>
+        <h3>
+          <div class="arrow-right"></div>Workshop 3: Beweging
+        </h3>
+        <div>
+          <div class="video-container">
+            <div class="modal" id="modalpopup">
+              <h3 class="modalh3">Goedzo! Je hebt de video afgekeken : )</h3>
+              <button class="modalbutton">Gereed</button>
+            </div>
+            <img class="videobutton playbutton switchthemeblue" id="pausebutton4" src="img/pause-btn@2x.png" alt="playbutton">
+            <img class="videobutton playbutton switchthemeblue" id="playbutton4" src="img/play-btn@2x.png" alt="playbutton">
+            <img class="videobutton forwardbutton switchthemeblue" id="forwardbutton4" src="img/forward btn@2x.png"
+              alt="forwardbutton">
+            <img class="videobutton rewindbutton switchthemeblue" id="rewindbutton4" src="img/rewind btn@2x.png" alt="rewindbutton">
+            <video id="my-video4" class="video-js vjs-16-9" preload="auto" width="640" height="264"
+              poster="img/video_placeholder@2x.png" data-setup="{}">
+              <source
+                src="https://player.vimeo.com/external/344512312.hd.mp4?s=958e2eecdce2b11f788be6bbacbe3ed315373207&profile_id=175"
+                type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+          </div>
+        </div>
+        <h3>
+          <div class="arrow-right"></div>Workshop 4: Variabelen gebruiken
+        </h3>
+        <div>
+          <div class="video-container">
+            <div class="modal" id="modalpopup">
+              <h3 class="modalh3">Goedzo! Je hebt de video afgekeken : )</h3>
+              <button class="modalbutton">Gereed</button>
+            </div>
+            <img class="videobutton playbutton switchthemeblue" id="pausebutton5" src="img/pause-btn@2x.png" alt="playbutton">
+            <img class="videobutton playbutton switchthemeblue" id="playbutton5" src="img/play-btn@2x.png" alt="playbutton">
+            <img class="videobutton forwardbutton switchthemeblue" id="forwardbutton5" src="img/forward btn@2x.png"
+              alt="forwardbutton">
+            <img class="videobutton rewindbutton switchthemeblue" id="rewindbutton5" src="img/rewind btn@2x.png" alt="rewindbutton">
+            <video id="my-video5" class="video-js vjs-16-9" preload="auto" width="640" height="264"
+              poster="img/video_placeholder@2x.png" data-setup="{}">
+              <source
+                src="https://player.vimeo.com/external/345316451.hd.mp4?s=ff339c30a205255e016f3619b0216fb288f5489c&profile_id=175"
+                type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+          </div>
+        </div>
+      </div>
+      <h3>Support</h3>
+      <button class="contactbutton">NAAR CONTACT</button>
+      <h3 class="support">Onze studenten staan voor je klaar. Etiam porta sem malesuada magna mollis euismod. Nullam id
+        dolor id nibh ultricies vehicula ut id elit. </h3>
+      <div class="clear"></div>
+      <div class="slide">
+        <div class="student">
+          <img class="pf" src="img/alina-kovalchuk-1@2x.png" alt="Alina Kovalchuk">
+          <h4 class="name">Alina Kovalchuk</h4>
+          <h4 class="function">Hoofd support</h4>
+          <button class="mailbutton">Mail</button>
+        </div>
+        <div class="student">
+          <img class="pf" src="img/giorgio-encinas-1@2x.png" alt="Gorgie Encinas">
+          <h4 class="name">Gorgie Encinas </h4>
+          <h4 class="function">Hoofd support</h4>
+          <button class="mailbutton">Mail</button>
+        </div>
+        <div class="student">
+          <img class="pf" src="img/kal-visuals-1@2x.png" alt="Kal Visuals">
+          <h4 class="name">Kal Visuals</h4>
+          <h4 class="function">Hoofd support</h4>
+          <button class="mailbutton">Mail</button>
+        </div>
+        <div class="student">
+          <img class="pf" src="img/norman-toth-1@2x.png" alt="Norman Toth">
+          <h4 class="name">Norman Toth</h4>
+          <h4 class="function">Hoofd support</h4>
+          <button class="mailbutton">Mail</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h1 class="footerh1">Klaar voor de
+      volgende uitdaging?</h1>
+    <h2 class="footerh2">In ons expertprogramma vind je lessen voor gevorderden </h2>
+    <a href="#"><button class="footerbutton">KOM MAAR OP</button></a>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://vjs.zencdn.net/6.4.0/video.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
